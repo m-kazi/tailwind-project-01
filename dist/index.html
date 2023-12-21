@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tailwind-Project-1</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="bg-slate-800">
+        <!-- Navbar goes here -->
+        <nav
+            class="w-full h-14 bg-indigo-200 flex justify-between px-4 md:px-6 items-center"
+        >
+            <div class="text-2xl text-indigo-700 font-bold">KazzCode</div>
+            <ul class="md:flex hidden font-semibold gap-10">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+            <div
+                class="hidden md:block bg-indigo-700 hover:bg-indigo-500 text-white p-2 rounded font-bold cursor-pointer"
+            >
+                Login/SignUp
+            </div>
+            <div class="md:hidden">
+                <a class="text-4xl" href="#">&#8801;</a>
+            </div>
+        </nav>
+        <!-- Navbar ends here -->
+
+        <!-- Header starts here - Hero section -->
+        <header>
+            <div class="w-full h-auto items-center md:flex">
+                <img
+                    class="w-full hidden md:block"
+                    src="https://images.pexels.com/photos/5926398/pexels-photo-5926398.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="High lavel coding"
+                />
+                <img
+                    class="w-full md:hidden"
+                    src="https://images.pexels.com/photos/5926378/pexels-photo-5926378.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Programming"
+                />
+                <h1
+                    class="text-white text-5xl mt-4 md:mx-4 font-bold uppercase"
+                >
+                    Let's learn code together and
+                    <span class="text-sky-400">build new skills.</span>
+                </h1>
+            </div>
+        </header>
+        <!-- Header ends here - Hero section -->
+
+        <!-- Students section starts here -->
+        <div
+            class="h-auto w-full flex flex-wrap flex-col items-center text-center p-10"
+        >
+            <div class="flex flex-wrap flex-col items-center">
+                <p class="text-indigo-800 font-bold text-2xl md:text-4xl">
+                    “Pure Hardwork, No Shortcuts!”
+                </p>
+                <div
+                    class="w-36 h-1 border-b-4 border-yellow-400 mt-2 mb-12 md:mt-4 rounded-2xl"
+                ></div>
+            </div>
+            <div class="w-full h-auto flex flex-wrap justify-evenly p-10">
+                <div class="w-46 flex flex-col items-center mb-12 p-2">
+                    <img
+                        class="w-40 h-40 rounded-full"
+                        src="./img/Animation-learning.jpg"
+                        alt=""
+                    />
+                    <p class="text-3xl font-bold text-white">600+</p>
+                    <p class="text-3xl font-bold text-gray-500">
+                        Different Courses
+                    </p>
+                </div>
+                <div class="w-46 flex flex-col items-center mb-12 p-2">
+                    <img
+                        class="w-40 h-40 rounded-full"
+                        src="./img/graduation-pic.jpg"
+                        alt=""
+                    />
+                    <p class="text-3xl font-bold text-white">500,000+</p>
+                    <p class="text-3xl font-bold text-gray-500">
+                        Students Enrolled
+                    </p>
+                </div>
+                <div class="w-46 flex flex-col items-center mb-12 p-2">
+                    <img
+                        class="w-40 h-40 rounded-full"
+                        src="./img/passed-exam.jpg"
+                        alt=""
+                    />
+                    <p class="text-3xl font-bold text-white">300,000+</p>
+                    <p class="text-3xl font-bold text-gray-500">
+                        Successfull Transition
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Students section ends here -->
+
+        <!-- Product section starts here -->
+        <div
+            class="h-auto w-full flex flex-wrap flex-col items-center text-center p-10"
+        >
+            <div class="flex flex-wrap flex-col items-center">
+                <p class="text-indigo-800 font-bold text-2xl md:text-4xl">
+                    “Our Products”
+                </p>
+                <div
+                    class="w-36 h-1 border-b-4 border-yellow-400 mt-2 mb-12 md:mt-4 rounded-2xl"
+                ></div>
+            </div>
+            <div class="h-auto w-[90%] flex flex-wrap justify-around">
+                <div
+                    class="w-64 flex flex-col items-center mb-12 border-2 border-white rounded-xl p-2"
+                >
+                    <img
+                        class="w-32 h-32 rounded-full"
+                        src="./img/skills-lab.jpg"
+                        alt=""
+                    />
+                    <p class="text-3xl font-bold text-white">Skills Lab</p>
+                    <p class="text-2xl font-bold text-gray-500">
+                        Interactive labs will be provided
+                    </p>
+                </div>
+                <div class="w-64 flex flex-col items-center mb-12 p-2">
+                    <img
+                        class="w-32 h-32 rounded-full"
+                        src="./img/job-image.jpg"
+                        alt=""
+                    />
+                    <p class="text-3xl font-bold text-white">Job Portal</p>
+                    <p class="text-2xl font-bold text-gray-500">
+                        Resume build and interview preparation
+                    </p>
+                </div>
+                <div class="w-64 flex flex-col items-center mb-12 p-2">
+                    <img
+                        class="w-32 h-32 rounded-full"
+                        src="./img/marketing.jpg"
+                        alt=""
+                    />
+                    <p class="text-3xl font-bold text-white">
+                        Experienced Faculty
+                    </p>
+                    <p class="text-2xl font-bold text-gray-500">
+                        Hands-on training with projects
+                    </p>
+                </div>
+                <div class="w-64 flex flex-col items-center mb-12 p-2">
+                    <img
+                        class="w-32 h-32 rounded-full"
+                        src="./img/certificates.jpg"
+                        alt=""
+                    />
+                    <p class="text-3xl font-bold text-white">Hall Of Fame</p>
+                    <p class="text-2xl font-bold text-gray-500">
+                        1000+ students placement completed
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Product section ends here -->
+
+        <!-- Footer starts here -->
+        <footer
+            class="w-full bg-gray-900 px-4 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between md:px-12"
+        >
+            <div>
+                <img
+                    class="h-16 w-32"
+                    src="./img/skills-lab.jpg"
+                    alt="kazzcode logo"
+                />
+                <p class="my-2">Email us: kazzcode@gmail.com</p>
+                <img
+                    class="w-32 h-32 rounded-full"
+                    src="./img/iso-image.jpg"
+                    alt="iso certified"
+                />
+            </div>
+            <div>
+                <h2 class="font-bold text-xl mt-4">KazzCode Skills</h2>
+                <div
+                    class="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"
+                ></div>
+                <div>
+                    <p>About Us</p>
+                    <p>FAQs</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="font-bold text-xl mt-4">Products</h2>
+                <div
+                    class="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"
+                ></div>
+                <div>
+                    <p>Skills Lab</p>
+                    <p>Job Portal</p>
+                    <p>Experience Portal</p>
+                    <p>Become An Affiliate</p>
+                    <p>Hall Of Fame</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="font-bold text-xl mt-4">Links</h2>
+                <div
+                    class="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"
+                ></div>
+                <div>
+                    <p>Discord Channel</p>
+                    <p>KazzCode YouTube</p>
+                    <p>Careers</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer ends here -->
+    </body>
+</html>
